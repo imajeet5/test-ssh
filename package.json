@@ -4,7 +4,7 @@
   "description": "a learning app for deployment",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "pm2 start app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/imajeet5/test-ssh#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pm2": "^4.3.0"
   }
 }
