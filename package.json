@@ -1,0 +1,22 @@
+{
+  "name": "heroku-app-test",
+  "version": "1.0.0",
+  "description": "a learning app for deployment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imajeet5/test-ssh.git"
+  },
+  "author": "ajeet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imajeet5/test-ssh/issues"
+  },
+  "homepage": "https://github.com/imajeet5/test-ssh#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
