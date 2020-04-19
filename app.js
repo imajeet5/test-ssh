@@ -3,6 +3,8 @@ const path = require('path');
 
 const app = express();
 
+const port = process.env.PORT || 3000;
+
 app.get("/", (req, res) => {
   res.send("Welcome to nodejs");
 })
@@ -13,7 +15,7 @@ app.get("/file", (req, res) => {
   );
 });
 
-const port = 3000;
+
 
 app.listen(port, () => {
 console.log(`Server listening on port ${port}`)});
