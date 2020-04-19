@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 
 app.get("/file", (req, res) => {
   res.sendFile(
-    path.join(__dirname, "./files/node-03-a-basic-setup.mp4")
+    path.join(__dirname, "./files/Pexels_Videos_1572442.mp4")
   );
 });
 
