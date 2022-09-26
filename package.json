@@ -18,6 +18,6 @@
   "homepage": "https://github.com/imajeet5/test-ssh#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "pm2": "^4.3.0"
+    "pm2": "^5.2.0"
   }
 }
